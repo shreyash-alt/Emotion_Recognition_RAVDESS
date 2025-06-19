@@ -1,2 +1,2 @@
 # Emotion_Recognition_RAVDESS
-Emotio recognition using speech and song audios of RAVDESS
+Emotion recognition using speech and song audios of RAVDESS
