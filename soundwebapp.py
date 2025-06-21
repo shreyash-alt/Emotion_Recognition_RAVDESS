@@ -56,4 +56,4 @@ if uploaded_file:
     predicted_class = np.argmax(prediction)
     predicted_emotion = emotion_labels[predicted_class]
 
-    st.markdown(f"### 🧠 Predicted Emotion: **{predicted_emotion.upper()}**")
+    st.markdown(f"### Predicted Emotion: **{predicted_emotion.upper()}**")
