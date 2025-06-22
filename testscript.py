@@ -41,8 +41,10 @@ def extract_emotion_features(file_path, fixed_length=130):
 
     # Pitch using librosa's piptrack
     pitches, magnitudes = librosa.piptrack(y=y, sr=sr)
-    pitch = np.mean(pitches[magnitudes > np.median(magnitudes)]) if np.any(magnitudes > np.median(magnitudes)) else 0
-    pitch_feature = np.full((1, fixed_length), pitch)
+    pitch_track = np.mean(pitches, axis=0)
+    pitch_track = librosa.util.fix_length(pitch_track, size=fixed_length)
+    pitch_feature = np.expand_dims(pitch_track, axis=0)
+
 
     # RMS energy
     rms = librosa.feature.rms(y=y)
