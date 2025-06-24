@@ -82,6 +82,7 @@ The epoch giving best average accuracy is used.
 ## Accuracy Metrics
 ### Confusion Report:
 ### Confusion Matrix:
+![image_alt](https://github.com/shreyash-alt/Emotion_Recognition_RAVDESS/blob/main/confusion_matrix.png?raw=true)
 
 ## Test Script Deployment
 Ensure model.h5 and scaler.pkl are in same folder as the script
