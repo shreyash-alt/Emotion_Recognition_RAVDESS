@@ -81,6 +81,20 @@ The epoch giving best average accuracy is used.
 
 ## Accuracy Metrics
 ### Confusion Report:
+              precision    recall  f1-score   support
+
+       angry       1.00      0.99      0.99       150
+        calm       0.94      0.96      0.95       151
+     disgust       1.00      1.00      1.00        77
+     fearful       0.94      0.97      0.95       150
+       happy       0.98      0.97      0.98       150
+     neutral       0.97      0.97      0.97        75
+         sad       0.95      0.93      0.94       151
+   surprised       1.00      0.95      0.97        77
+
+    accuracy                           0.97       981
+   macro avg       0.97      0.97      0.97       981
+weighted avg       0.97      0.97      0.97       981
 ### Confusion Matrix:
 ![image_alt](https://github.com/shreyash-alt/Emotion_Recognition_RAVDESS/blob/main/confusion_matrix.png?raw=true)
 
