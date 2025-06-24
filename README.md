@@ -81,7 +81,7 @@ The epoch giving best average accuracy is used.
 
 ## Accuracy Metrics
 ### Classification Report:
-![txt_alt](./classification_report.txt)
+[View Classification Report](./classification_report.txt)
 
 ### Confusion Matrix:
 ![image_alt](https://github.com/shreyash-alt/Emotion_Recognition_RAVDESS/blob/main/confusion_matrix.png?raw=true)
