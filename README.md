@@ -57,17 +57,17 @@ Input: (130 time steps × 62 features)
 → Dense(128) + L2 + Dropout(0.2)  
 → Output Dense (Softmax, 8 classes)  
 ### Training:
-Optimizer: Adam
+- Optimizer: Adam
 
-Loss: Categorical Crossentropy
+- Loss: Categorical Crossentropy
 
-Epochs: 200
+- Epochs: 200
 
-Batch size: 32
+- Batch size: 32
 
-Callback: ModelCheckpoint (best weights per epoch)
+- Callback: ModelCheckpoint (best weights per epoch)
 
-Class Weight:To handle class imbalance
+- Class Weight:To handle class imbalance
 
 ### Model Selection:
 After training, the best model is selected using:
