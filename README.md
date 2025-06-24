@@ -45,6 +45,11 @@ Signal Processing:
 | **Pitch Track**        | Mean pitch at each frame (from `librosa.piptrack`) | 1                  |
 | **RMS Energy**         | Root mean square energy of the signal              | 1                  |
 
+### Class Weighing
+Since the dataset showed class imbalance (e.g., fewer neutral or disgust samples due to missing song files), class weights were computed using:
+            
+    from sklearn.utils.class_weight import compute_class_weight
+    
 ## Model Pipeline
 ### Architecture (Keras Sequential):
 Input: (130 time steps × 62 features)
