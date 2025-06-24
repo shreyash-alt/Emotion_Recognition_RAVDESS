@@ -67,7 +67,7 @@ Batch size: 32
 
 Callback: ModelCheckpoint (best weights per epoch)
 
-Class Weight:Tto handle class imbalance
+Class Weight:To handle class imbalance
 
 ### Model Selection:
 After training, the best model is selected using:
