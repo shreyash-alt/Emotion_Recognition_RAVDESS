@@ -21,7 +21,8 @@ Two Kaggle-hosted subsets of the official RAVDESS dataset:
 
     uwrfkaggler/ravdess-emotional-song-audio
 
-
+NOTE:When running the colab version upload kaggle.json when prompted
+NOTE:When running either on Kaggle or Colab use latest version of either
 ## Pre-processing Methodology
 Each .wav file is processed using librosa:
 Signal Processing:
@@ -80,6 +81,7 @@ Average Accuracy = (Train Accuracy + Validation Accuracy) / 2
 The epoch giving best average accuracy is used.
 
 ## Accuracy Metrics
+Best average (acc + val_acc)/2 at epoch 92,accuracy=0.9844506978988647, validation accuracy=0.9847095012664795, average value = 0.9846
 ### Classification Report:
 [View Classification Report](./classification_report.txt)
 
