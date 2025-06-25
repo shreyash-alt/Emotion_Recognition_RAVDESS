@@ -58,12 +58,12 @@ Since the dataset showed class imbalance (e.g., fewer neutral or disgust samples
 ### Architecture (Keras Sequential):
 Input: (130 time steps × 62 features)
 
-→ Conv1D (64 filters) → BatchNorm → MaxPool → Dropout(0.2)  
-→ Conv1D (128 filters) → BatchNorm → MaxPool → Dropout(0.2)  
+→ Conv1D (64 filters) → BatchNorm → MaxPool → Dropout(0.3)  
+→ Conv1D (128 filters) → BatchNorm → MaxPool → Dropout(0.3)  
 → Bidirectional LSTM (128 units) → BatchNorm  
-→ Dense(256) + L2 + Dropout(0.2)  
-→ Dense(128) + L2 + Dropout(0.2)  
-→ Dense(128) + L2 + Dropout(0.2)  
+→ Dense(256) + L2 + Dropout(0.3)  
+→ Dense(128) + L2 + Dropout(0.3)  
+→ Dense(128) + L2 + Dropout(0.3)  
 → Output Dense (Softmax, 8 classes)  
 ### Training:
 - Optimizer: Adam
