@@ -3,7 +3,7 @@ pandas
 scikit-learn
 matplotlib
 seaborn
-librosa==0.10.1
-tensorflow>=2.11.0
+librosa
+tensorflow
 joblib
 streamlit
