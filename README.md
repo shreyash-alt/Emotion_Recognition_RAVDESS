@@ -21,7 +21,10 @@ Two Kaggle-hosted subsets of the official RAVDESS dataset:
 
     uwrfkaggler/ravdess-emotional-song-audio
 
+### Running
+
 NOTE:When running the colab version upload kaggle.json when prompted
+
 NOTE:When running either on Kaggle or Colab use latest version of either
 ## Pre-processing Methodology
 Each .wav file is processed using librosa:
